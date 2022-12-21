@@ -24,9 +24,9 @@ function Navbar() {
           <TabPanel bg="#118AB2" h="400px">
             <div onMouseEnter={setFlag.off} onMouseLeave={setFlag.on}>
               <h1>
-                Tu as l'idée qui va{" "}
+                Lorem ipsum dolor sit amet.{" "}
                 {flag ? "révolutionenr le monde" : "te faire gagner un max"} ?
-                Alors tu es bien tombé pour arriver ton objectif !
+                Lorem ipsum dolor sit amet.
               </h1>
             </div>
           </TabPanel>
