@@ -14,6 +14,12 @@ function Navbar() {
   return (
     <div>
       <Tabs variant="soft-rounded" colorScheme="green">
+        <TabList p="5">
+          <Tab fontSize="16">Step 1! 📝</Tab>
+          <Tab fontSize="16">Step 2! 👨‍💻</Tab>
+          <Tab fontSize="16">Step 3! 📱</Tab>
+          <Tab fontSize="16">Step 4! 🚀</Tab>
+        </TabList>
         <TabPanels fontSize="30" color="#fff">
           <TabPanel bg="#118AB2" h="400px">
             <div onMouseEnter={setFlag.off} onMouseLeave={setFlag.on}>
@@ -37,12 +43,6 @@ function Navbar() {
             <p>Lorem ipsum dolor sit amet.</p>
           </TabPanel>
         </TabPanels>
-        <TabList p="5">
-          <Tab>Step 1! 📝</Tab>
-          <Tab>Step 2! 👨‍💻</Tab>
-          <Tab>Step 3! 📱</Tab>
-          <Tab>Step 4! 🚀</Tab>
-        </TabList>
       </Tabs>
     </div>
   );
